@@ -1,0 +1,7 @@
+name = "comparision operator"
+if len(name) < 3:
+    print('name must be at least 3 charactrs')
+elif len (name) > 50:
+    print('name is more than 50 charactrs')
+else:
+    print('name looks good!')
