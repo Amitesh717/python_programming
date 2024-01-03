@@ -1,0 +1,6 @@
+weight = input('Weight:')
+unit = input('(l)bs or (k)g: ')
+if unit =='l':
+    print('you are ',int(weight)*0.45,'kilogram')
+else:
+    print('you are ',int(weight) / 0.45,' pound')
